@@ -1,0 +1,134 @@
+<html>
+<head>
+    <title>Form Layout</title>
+    <style>
+        body{
+            background-color: rgba(128, 128, 128, 0.373);
+        }
+        h2{
+           text-align: center;
+           text-decoration-line: underline;
+        }
+        .one{
+            width: 400px;
+        }
+        input{
+            margin-left: 141.5px;
+        }
+        .two{
+            width: 400px;
+        }
+        #a{
+            margin-left: 143.5px;
+        }
+        .three{
+            width: 400px;
+        }
+        #b{
+            margin-left: 140px;
+        }
+        .four{
+            width: 400px;
+        }
+        #c{
+            margin-left: 172.3px; 
+        }
+        .five{
+            width: 400px;
+        }
+        #d{
+            margin-left: 152px; 
+        }
+        .six{
+            width: 400px;
+        }
+        #e{
+            margin-left: 128.5px; 
+        }
+        .seven{
+            width: 300px;
+            text-align: left;
+            margin-top: -20px;
+            margin-left: 90px;
+        }
+        #f{
+            margin-left: 128.5px; 
+        }
+        .eight{
+            width: 300px;
+            margin-top: -21px;
+            margin-left: 150px;
+        }
+        .nine{
+            width: 210px;
+            margin-top: -20px;
+            margin-left: 225px;
+        }
+        .ten{
+            width: 400px;
+        }
+        #f{
+            margin-left: 171.5px;  
+        }
+        .eleven{
+            width: 400px;
+            padding-top: 40px;
+            box-sizing: border-box;
+        }
+        #g{
+            margin-left: 222px;  
+            font-size: 13.6px; 
+            margin-top: -39px;
+        }
+        #h{
+            margin-left: 230px;
+        }
+        #i{
+            margin-left: 40px;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+    <form>
+      <h2>Registration Form</h2>
+      <div class="one"><label>First Name:</label> <input  type="text"></div>
+      <br>
+      <br>
+      <div class="two"><label>Last Name:</label> <input id="a" type="text"></div>
+      <br>
+      <br>
+      <div class="three"><label>Nick Name:</label> <input id="b" type="text"></div>
+      <br>
+      <br>
+      <div class="four"><label>e-mail:</label> <input id="c" type="email"></div>
+      <br>
+      <br>
+      <div class="five"><label>Password:</label> <input id="d" type="password"></div>
+      <br>
+      <br>
+      <div class="six"><label>Date of Birth:</label> <input id="e" type="character"></div>
+      <br>
+      <br>
+      <label>Gender</label> <div class="seven"><input type="radio" name="a">Male</div>
+                            <div class="eight"><input type="radio" name="a">Female</div>
+                            <div class="nine"><input type="radio" name="a">Others</div>
+
+                          <div style="display: flex; justify-content: space-evenly; background-color: red; max-width: 500px;">  <input type="radio" name="a">Male
+                                <input type="radio" name="a">Female
+                                <input type="radio" name="a">Others
+                         </div>
+      <br>
+      <br>
+      <div class="ten"><label>Mobile</label> <input id="f" type="number"></div>
+      <br>
+      <br>
+      <div class="eleven"><label>Address</label> <textarea id="g"></textarea></div>
+      <br>
+      <br>
+      <input id="h" type="submit">
+      <input id="i" type="reset">
+    </form>
+</fieldset>
+</body>
+</html>

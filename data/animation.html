@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+
+    @keyframes priya {
+        0%{ background-color: red; border-radius: 0px;}
+        10%{background-color: pink; border-radius: 10px;}
+        20%{background-color: blue; border-radius: 20px;}
+        30%{background-color: green; border-radius: 30px;}
+        40%{background-color: black; border-radius: 40px;}
+        50%{background-color: brown; border-radius: 50px;}
+        60%{background-color: black; border-radius: 40px;}
+        70%{background-color: green; border-radius: 30px;}
+        80%{background-color: blue; border-radius: 20px;}
+        90%{background-color: pink; border-radius: 10px;}
+        100%{background-color: red; border-radius: 0px;}
+    }
+      .box{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        animation-name: priya;
+        animation-duration: 2s;
+        /* animation-delay: 4s; */
+        /* animation-iteration-count: infinite; */
+        animation-direction: alternate;
+      }
+     
+
+    
+
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>

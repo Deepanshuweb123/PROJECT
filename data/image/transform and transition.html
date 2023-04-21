@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform and Transition</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            margin-top: 90px;
+            margin-left: 50px;
+            background-color: aqua;
+            border: 30px double deeppink;
+            /* transform: rotate(45deg); */
+            /* transform: translate(400px,300px); */
+        }
+        div:hover{
+            width: 400px;
+            height: 400px;
+            border-radius: 50%;
+            border: 10px groove red;
+            transform: translate(400px,300px);
+            transition-property: width,height,border-radius,transform,;
+            transition-duration: 4s;
+            transition-delay: 2s;
+        }
+
+    </style>
+</head>
+<body>
+   <div></div>
+</body>
+</html>
